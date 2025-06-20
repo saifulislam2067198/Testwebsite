@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Surveys Form</title>
+</head>
+<body>
+    <h1 style="text-align: center;">ChiPi Technologies Private Limited</h1>
+    <h2 style="text-align: center;">Student Survey Forms</h2>
+    <hr style="color: rgb(51, 255, 0);">
+    <marquee>"ChiPi Technologies – Coding the Future, One Byte at a Time!" 🚀💻</marquee>
+    <h2 style="text-align: center; font-size: medium;">Let Us Know How We Can Improve ChiPi Technologies</h2> <br>
+    <div style="text-align: center;">
+
+        <form>
+        <label for="name">Name:-</label>
+        <input type="text" placeholder="Enter Your Name" id="name" required><br><br>
+
+        <label for="email">E-mail:-</label>
+        <input type="email" placeholder="Enter Your Email" id="email" required><br><br>
+
+        <label for="Age">Age:-  </label>
+        <input type="number" placeholder=" Enter Your Age" id="Age" min="18"  required><br><br>
+    </div>
+    
+    <div style="text-align:center;">
+        <label for="Role">Role-:</label>
+<select id="Role" name="Role">
+    <option value="0">Select Your Role</option>
+  <option value="Student">Student</option>
+  <option value="JobSeeker">Job Seeker</option>
+  <option value="NoExperienced">No Experienced</option>
+</select>
+<br><br>
+
+ <label>Course Enrolled:</label><br>
+        <select name="course">
+            <option value="Full Stack Web Development">Full Stack Web Development</option>
+            <option value="AI & ML">AI & ML</option>
+            <option value="Java">Java</option>
+        </select><br><br>
+
+        <label>How satisfied are you with the HTML lessons?</label><br>
+        <select name="satisfaction">
+            <option value="Very Satisfied">Very Satisfied</option>
+            <option value="Satisfied">Satisfied</option>
+            <option value="Neutral">Neutral</option>
+            <option value="Unsatisfied">Unsatisfied</option>
+            <option value="Very Unsatisfied">Very Unsatisfied</option>
+        </select><br><br>
+
+        <label>What areas need improvement? (Select all that apply)</label><br>
+        <input type="checkbox" name="improvement[]" value="More practical exercises"> More practical exercises<br>
+        <input type="checkbox" name="improvement[]" value="Better explanations"> Better explanations<br>
+        <input type="checkbox" name="improvement[]" value="More real-world projects"> More real-world projects<br>
+        <input type="checkbox" name="improvement[]" value="Interactive coding sessions"> Interactive coding sessions<br>
+        <input type="checkbox" name="improvement[]" value="Other"> Other (Specify below)<br><br>
+
+        <label>Additional Suggestions:</label><br>
+        <textarea name="additional" rows="4"></textarea><br><br>
+
+        <input type="submit" value="Submit Feedback">
+    </form>
+
+
+
+
+    </div>
+</body>
+</html>
