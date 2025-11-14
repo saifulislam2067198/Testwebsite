@@ -1,0 +1,30 @@
+/*styling the body*/
+body{
+    background-color: brown;
+    font-family:Arial,sanse-serif;
+    text-align:center;
+    
+    padding:50px;
+
+} 
+/*styling heading*/
+h1{
+    color:blue;
+    text-decoration: underline;
+    text-align: center;
+}
+p{
+    color:aqua;
+}
+/* styling bottom*/
+button
+{
+    background-color:blue;
+    color:brown;
+    padding: 10px 20px;
+    border:rgb(17, 0, 255);
+    border-radius: 8px;
+    cursor:pointer;
+    
+
+}

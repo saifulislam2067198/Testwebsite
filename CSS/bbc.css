@@ -1,0 +1,21 @@
+body {
+    font-family: arial,sans-serif;
+    background-color: blueviolet;
+    padding: 20px;
+
+}
+.breaking {
+background: color(srgb red green blue);
+color: white;
+padding: 10px 20px;
+font-size: 20px;
+font-weight: bold;
+animation:flash 1s infinite alternate;
+
+}
+.headline{
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+    animation: slidein;
+}

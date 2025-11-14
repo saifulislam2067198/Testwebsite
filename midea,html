@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="../Testwebsite/HTML/htmlTutorial/css">
+<title>Title</title>
+</head>
+<body>
+  <h1>Responsive Design Example</h1>
+  <p>This is a simple example of a responsive design using media queries.</p>
+  <p>Resize the browser window to see the font size change when the screen width is 600 pixels or less.</p>
+    <div class="box"> This is a box.</div>
+</body>
+</body>
+</html>
