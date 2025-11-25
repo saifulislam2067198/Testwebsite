@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChiPi Technologies - Course Catalog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f8fc;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #004aad;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #004aad;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th {
+            background-color: #e6f0ff;
+        }
+        th, td {
+            text-align: left;
+            padding: 10px;
+        }
+        ul {
+            margin-top: 10px;
+        }
+        form {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f0f7ff;
+            border-radius: 8px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            margin-top: 15px;
+            background-color: #004aad;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #00337a;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #004aad;
+            color: white;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ChiPi Technologies</h1>
+        <p>Empowering learners through innovation and technology-driven education.</p>
+    </header>
+
+    <main>
+        <h2>Our Mission</h2>
+        <p>
+            At ChiPi Technologies, our mission is to provide high-quality, affordable, and industry-relevant 
+            technology training that empowers individuals to achieve their career goals in the digital era.
+        </p>
+
+        <h2>Course Catalog</h2>
+        <table>
+            <tr>
+                <th>Course Name</th>
+                <th>Duration</th>
+                <th>Instructor</th>
+                <th>Fee</th>
+            </tr>
+            <tr>
+                <td>Full Stack Web Development</td>
+                <td>12 Weeks</td>
+                <td>Dr. Alicia Ray</td>
+                <td>$800</td>
+            </tr>
+            <tr>
+                <td>Data Science with Python</td>
+                <td>10 Weeks</td>
+                <td>Mr. John Smith</td>
+                <td>$900</td>
+            </tr>
+            <tr>
+                <td>Artificial Intelligence Fundamentals</td>
+                <td>8 Weeks</td>
+                <td>Dr. Priya Patel</td>
+                <td>$950</td>
+            </tr>
+            <tr>
+                <td>Cloud Computing with AWS</td>
+                <td>6 Weeks</td>
+                <td>Ms. Clara Johnson</td>
+                <td>$750</td>
+            </tr>
+            <tr>
+                <td>Cybersecurity Essentials</td>
+                <td>8 Weeks</td>
+                <td>Mr. David Lee</td>
+                <td>$850</td>
+            </tr>
+        </table>
+
+        <h2>Eligibility Criteria</h2>
+        <ul>
+            <li>Minimum age: 18 years</li>
+            <li>Basic computer literacy</li>
+            <li>Good understanding of English</li>
+            <li>Access to a computer and internet connection</li>
+        </ul>
+
+        <h2>Register Your Interest</h2>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="course">Select Course:</label>
+            <select id="course" name="course" required>
+                <option value="">-- Select a Course --</option>
+                <option>Full Stack Web Development</option>
+                <option>Data Science with Python</option>
+                <option>Artificial Intelligence Fundamentals</option>
+                <option>Cloud Computing with AWS</option>
+                <option>Cybersecurity Essentials</option>
+            </select>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <button type="submit">Submit Interest</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 ChiPi Technologies | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
