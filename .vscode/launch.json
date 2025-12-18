@@ -1,0 +1,39 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    // HTML, CSS, JavaScript
+    {
+      "name": "Open index.html in Chrome",
+      "type": "chrome",
+      "request": "launch",
+      "file": "${workspaceFolder}/index.html"
+    },
+
+    // Node Debugging
+    {
+      "name": "Node.js Debug",
+      "type": "node",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    },
+
+    // React - Create React App
+    {
+      "name": "Debug CRA",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}/src"
+    },
+
+    // React - Vite
+    {
+      "name": "Debug Vite App",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:5173",
+      "webRoot": "${workspaceFolder}/src"
+    }
+  ]
+}
