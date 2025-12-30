@@ -1,0 +1,33 @@
+!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Chipi technologies student</title>
+    </head>
+    <body>
+        <h2>Technologies-Date of Birth Input</h2>
+        <form>
+            <label for="month1">1. Basic month input</label><br>
+            <input type="month" id="month1" name="month1"><br>
+
+            <label for="month2">2. Allow Month:Jan 2023</label><br>
+            <input type="month" id="month2" name="month2" min="2023-01" max="2025-12"><br>
+
+            <label for="month3">3. Default Value(pre-field): </label><br>
+            <input type="month" id="month3" name="month3" value="2024-08"><br><br>
+
+            <label for="month4">4. Requird month (cannot submit emty):</label><br>
+            <input type="month" id="month4" name="month4" required><br><br>
+
+            <label for="month5">5. Read-only  month (Visible but Non -editable): </label><br>
+            <input type="month" id="month5" name="month5" value="2023-06" readonly><br><br>
+
+            <label for="month6">6. Disable month(Grayed out):</label><br>
+            <input type="month" id="month6" name="month6" value="2021-11" disabled><br><br>
+
+            <input type="Submit" value="Submi Form">
+            <input type="reset" value="Clear Form">
+
+        </form>
+    </body>
+</html>

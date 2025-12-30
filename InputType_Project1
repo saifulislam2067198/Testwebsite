@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="em">
+    <head>
+        <meta charset="UTF-8">
+        <title>ChiPi Technologies-Login/Sign Up</title>
+        <body>
+            <h2>
+                ChiPi Technologies-Login/Sign Up
+            </h2>
+            <p>
+                <img src="../HTML/htmlTutorial/image.png" alt="ChiPi Technologies.png" width="50">
+
+            </p>
+            <form>
+                <lebel for="email"><strong>Email Address: </strong></lebel><br>
+                <input type="email" id="email" name="email" placeholder="e.g.,saiful@gmail.com"><br>
+                <label for="password"><strong>Password</strong></label><br>
+                <input type="password" id="password" name="password" placeholder="Enter your password"><br>
+                <label for="confirmpassword"><strong>Confirom Password</strong></label><br>
+                <input type="password" id="confirmpassword" name="confirmpassword" placeholder="Re-Enter your password"><br>
+                <label for="role">I am a:</label><br>
+                <select id="role" name="role" required>
+                    <option value="">---select role---</option>
+                        <option value="student">Student</option><br>
+                        <option value="Faculty">Faculty</option>
+                    </option><br><br>
+                </select><br><br>
+                <input type="Submit" value="Sign Up/Login">
+                <input type="reset" value="Clear Form">
+            </form>
+            <p>&copy; <em>saiful islam</em>All right reserved.</p>
+        </body>
+    </head>
+</html>
+
+
