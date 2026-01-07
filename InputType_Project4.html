@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Job Application Form</title>
+</head>
+<body>
+
+<h3>ChiPi Technologies - Job Application Form</h3>
+
+<form>
+<fieldset>
+<legend>Personal Details</legend>
+
+<label for="fullName"><strong>Full Name</strong></label><br>
+<input type="text" id="fullName" name="fullName" placeholder="Please Enter your name "><br><br>
+
+<label foe="email"><strong>Email</strong></label><br>
+<input type="email" id="email" name="email" placeholder="e.g.,saiful@mail.com"><br><br>
+
+<label for="mobile"><Strong>Mobile Number</Strong></label><br>
+<input type="tel" pattern="\+91-{0-9}" id="mobile" name="mobile" placeholder="e.g.,8822094329" required><br><br>
+
+<label><strong>Position Applied For:</strong></label><br>
+<select>
+    <option>Software Developer</option>
+    <option>Web Designer</option>
+    <option>Tester</option>
+</select><br><br>
+
+<label><strong>Resume Upload:</strong></label><br>
+<input type="file"><br><br>
+
+<label><strong>Gender:</strong></label><br>
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female<br><br>
+
+<label>Skills:</label><br>
+<input type="checkbox"> HTML
+<input type="checkbox"> CSS
+<input type="checkbox"> JavaScript
+<input type="checkbox"> Java<br><br>
+
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+
+</fieldset>
+</form>
+
+</body>
+</html>

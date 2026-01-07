@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>ChiPi Technologies-student Registration</title>
+    </head>
+    <body>
+        <h2>ChiPi Technologies-student Registration form</h2>
+        <form>
+            <label for="fullName">Full Name</label><br>
+            <input type="text" id="fullName" name="fullName" placeholder="e.g.,saiful islam"><br><br>
+
+            <label for="email">Email Address</label><br>
+            <input type="email" id="email" name="email" placeholder="e.g.,saiful@gmail.com"><br><br>
+
+            <label for="mobile">Mobile Number</label><br>
+            <input type="tel" pattern="\+91-{0-9}" id="mobile" name="mobile" placeholder="e.g.,8822094329" required><br><br>
+
+            <label>Gender</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="Male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br>
+
+            <label for="course">Select course</label><br>
+            <select id="course" name="course" required>
+                <option value="">---please choose an option</option>
+                <option value="Java Full Stack Development">Java Full Stack Development</option>
+                <option value="Frontend Development">Frontend Development</option>
+                <option value="React with Project">React with Project</option>
+                <option value="Python For Beginners">Python For Beginners</option>
+            </select><br><br>
+            <label for="timing">preferd Batch Timing</label><br>
+            <input type="text" id="timing" name="timing" placeholder="e.g.,Weekned morning"><br>
+
+            <label for="comments"> Any comments and Questions:</label>
+            <textarea id="comments" name="comments" rows="4" cols="75" placeholder="Write here......"></textarea><br>
+
+            <input type="Submit" value="Rrgistration">
+            <input type="reset" value="clear Form">
+
+            <p>&copy;ChiPi Technologies. All right</p>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tech Webinar Registration</title>
+</head>
+<body>
+
+<header>
+    <h2>ChiPi Technologies Tech Webinar</h2>
+</header>
+
+<article>
+    <section>
+        <h3>Event Details</h3>
+        <dl>
+            <dt>Date</dt>
+            <dd>15 March 2026</dd>
+
+            <dt>Time</dt>
+            <dd>10:00 AM - 1:00 PM</dd>
+
+            <dt>Agenda</dt>
+            <dd>Web Development & Career Guidance</dd>
+        </dl>
+    </section>
+
+    <section>
+        <h4>Registration Form</h4>
+
+        <form>
+            <label for="fullName"><strong>Full Name:</strong></label><br>
+            <input type="text" id="fullName" name="fullName" placeholder="e.g.,saiful islam"><br><br>
+
+            <label for="email"> <strong>Email Address:</strong></label><br>
+            <input type="email" id="email" name="email" placeholder="e.g.,saiful@gmail.com" required><br><br>
+
+            <label for="phone"><strong>Mobile Number</strong></label><br>
+            <input type="tel" id="phone" name="phone" pattern="\+91-{0-9}" placeholder="8822094329"><br>
+
+            <label for="Track Selection"><strong>Track Selection</strong></label><br>
+            <input type="radio" name="track"> Technical
+            <input type="radio" name="track"> Non-Technical<br><br>
+
+            <label for="Meal Preference"><strong>Meal Preference:</strong></label><br>
+            <select>
+                <option>Veg</option>
+                <option>Non-Veg</option>
+            </select><br><br>
+
+            <input type="submit" value="Register">
+        </form>
+    </section>
+</article>
+
+<footer>
+    <p>&copy; 2026 ChiPi Technologies</p>
+</footer>
+
+</body>
+</html>
