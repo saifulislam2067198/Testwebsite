@@ -1,0 +1,13 @@
+.parent {
+    color: rgb(236, 9, 142);
+    font-size: 20px;
+    text-align: center;
+    padding-left: 20px;
+}
+.parent p{
+    color: rgb(228, 231, 6);
+    font-size: 40px;
+}
+.h1{
+    color: darkblue;
+}

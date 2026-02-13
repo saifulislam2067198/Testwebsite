@@ -1,0 +1,67 @@
+#example{
+    font-size: 25px;
+    background-color: aqua;
+    text-align: center;
+}
+.WhatisCSS{
+    background-color: blue;
+    font-size: 25px;
+    text-align: center;
+}
+body{
+    background-color: rgb(190, 9, 9);
+    background: greenyellow;
+}
+p{
+    color: brown;
+}
+.saiful{
+    color: white;
+}
+h2{
+    color: rebeccapurple;
+    font-size: 28px;
+    background-color: red;
+    text-align: center;
+}
+.r{
+    text-align: end;
+    background: rgb(107, 43, 226);
+}
+.mybackgrountcolour forgroundcolour{
+    color: #000;
+}
+.myspent{
+    background-color: aqua;
+    text-align: justify;
+    text-align: right;
+}
+#firstparagraph{
+    background-color: green;
+    color: white;
+    font-size: 25px;
+}
+.rabiul{
+    color: black;
+background-color: yellowgreen;}
+.abdul{
+    background-color: red;
+}
+#selector{
+    background-color: pink;
+}
+.name{
+    background: purple;
+    color: yellowgreen;
+    text-align: center;
+}
+div{
+    background-color: black;
+
+}
+.parent{
+    background-color: yellow;
+}
+#selector2{
+    background-color: whitesmoke;
+}
