@@ -1,0 +1,41 @@
+body{
+    background-color: aqua;
+    font-size: 20px;
+}
+.parent{
+    color: whitesmoke;
+    font-size: 25px;
+    background-color: yellowgreen;
+    border: 0cap;
+}
+ul{
+    color: blue;
+
+}
+li{
+    text-align: center;
+    color: peru;
+}
+h1{
+    background-color: aliceblue;
+    color: palevioletred;
+    font-size: 25px;
+    text-align: center;
+}
+div{
+    color: rgb(255, 0, 13);
+    text-align: center;
+    color: red;
+}
+p{
+    text-align: center;
+    color: rgb(255, 205, 209);
+    background-color: beige;
+}
+.saiful{
+    color: brown;
+    background-color: chartreuse;
+    font-size: 15px;
+    text-align: left;
+}
+
